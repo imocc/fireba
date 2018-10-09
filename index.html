@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<center>
+<body>
+
+
+	<div id="login" class="main-div">
+		<h3>Firebase logn</h3>
+		<input type="email" id="email_field" name="" value="" placeholder="email">
+	<input type="password" id="password_field" name="" value="" placeholder="Ingresa tu contraseña">
+	<button onclick="login()">Ingresar</button>
+	</div>
+
+
+	<div id="user_div"><h1>hola eres tuya tambien tuya</h1>
+		<button type="">Loyout</button>
+	</div>
+	<style type="text/css">
+		body{
+			background: #fff;
+			padding: 0px;
+			margin: 0px;
+			font-family: 'Nunito',sans-serif;
+			
+		}
+		input , button{
+font-family: 'Nunito',sans-serif;
+
+
+		}
+
+		main-div{
+
+			width: 20%;
+			margin: 0px auto;
+			margin-top: 150px;
+			padding: 20px;
+		}
+		main-div ,input{
+			display: block;
+			border:1px solid #ccc;
+			border-radius: 5px;
+			background: #fff;
+			padding: 15px;
+			outline: none;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		main-div ,button{
+			background: #5d8ffc;
+			color: #fff;
+			border:0px;
+			border-radius: 5px;
+			padding: 15px;
+			display: block;
+			width: 100%;
+		}
+
+	</style>
+
+	<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAznkAvZMZtobetKW0ENGu6fhUR_XlqE-U",
+    authDomain: "agenda-89098.firebaseapp.com",
+    databaseURL: "https://agenda-89098.firebaseio.com",
+    projectId: "agenda-89098",
+    storageBucket: "agenda-89098.appspot.com",
+    messagingSenderId: "134436183499"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+
+
+
+
+	<script src="index.js"></script>
+</body></center>
+</html>
